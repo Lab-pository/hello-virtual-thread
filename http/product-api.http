@@ -1,0 +1,12 @@
+### Read Products
+GET http://localhost:8080/products
+
+### Create Product
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "커피",
+  "quantity": 10000,
+  "price": 1000
+}

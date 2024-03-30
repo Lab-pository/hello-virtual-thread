@@ -4,4 +4,12 @@ spring:
   threads:
     virtual:
       enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: none
 
+server:
+  tomcat:
+    threads:
+      max: 1
+      min-spare: 1

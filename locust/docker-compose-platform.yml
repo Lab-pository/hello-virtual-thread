@@ -5,6 +5,7 @@ services:
     image: ghcr.io/lab-pository/hello-virtual-thread:v0.0.1
     ports:
       - "8080:8080"
+      - "9091:9091"
   master:
     image: locustio/locust
     ports:
